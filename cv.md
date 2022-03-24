@@ -12,3 +12,9 @@
 **NickName discord:** @sakhalinex
 
 ---
+
+#### Briefly About Myself:
+
+I am 22 years old, I am a 5th year student at the University of the Pacific National University with a degree in Economic Security. In the process of studying at the university, an interest in the IT field arose, and at the same time I began to study Front-end development. Signed up for a course to master the profession of Front-end developer
+
+---
