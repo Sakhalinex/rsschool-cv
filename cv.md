@@ -59,3 +59,10 @@ const twosDifference = input => {
 **1. [Project №1](https://github.com/Sakhalinex/rsschool-cv)**
 
 ---
+
+#### Education:
+**1. JavaScript 2021 - Complete Guide from Zero to Pro - by Vladilen Minin**
+**2. JavaScript Manual on learnjavascript.ru (in progress)**
+**3. RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)**
+
+---
