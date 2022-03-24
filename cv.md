@@ -53,3 +53,9 @@ const twosDifference = input => {
 ```
 
 ---
+
+#### Work experience:
+
+**1. [Project №1](https://github.com/Sakhalinex/rsschool-cv)**
+
+---
