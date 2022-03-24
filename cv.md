@@ -66,3 +66,8 @@ const twosDifference = input => {
 **3. RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)**
 
 ---
+
+#### Languages:
+
+**1. Russian (Mastery - C2)**
+**2. English (Beginner - A1)**
