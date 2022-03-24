@@ -30,3 +30,26 @@ I am 22 years old, I am a 5th year student at the University of the Pacific Nati
 7. VS code
 
 ---
+
+#### Code example:
+**Kata from codewars:**
+The objective is to return all pairs of integers from a given array of integers that have a difference of 2.
+The result array should be sorted in ascending order of values. Assume there are no duplicate integers in the array.
+The order of the integers in the input array should not matter.
+
+**Solution:**
+```
+const twosDifference = input => {
+  let result = [];
+  for (let i = 0; i < input.length; i++) {
+    for (let j = i + 1; j < input.length; j++) {
+      if (input[i] - input[j] === 2 || input[i] - input[j] === -2) {
+        result.push([input[i], input[j]].sort((a, b) => a - b))
+      }
+    }
+  }
+  return result.sort((a, b) => a[0] - b[0])
+}
+```
+
+---
