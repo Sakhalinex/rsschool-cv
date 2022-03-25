@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Sakhalinex.github.io/rsschool-cv/cv
