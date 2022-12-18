@@ -10,34 +10,36 @@
 </head>
 <body>
     <header class="header">
-        <nav class="menu">
-            <ul class="menu__list">
-                <li class="menu__item">
-                    <a href="#" class="menu__link">Contacts</a>
-                    <a href="#" class="menu__link">About</a>
-                    <a href="#" class="menu__link">Skills</a>
-                    <a href="#" class="menu__link">Expirience</a>
-                    <a href="#" class="menu__link">Code</a>
-                    <a href="#" class="menu__link">Education</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="header__inner">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">About</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Skills</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Expirience</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Code</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Education</a></li>      
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="main">
         <section class="intro">
             <div class="container">
-                <div class="intro__text intro-text">
-                    <h1 class="intro-text__title">Dmitriy An, <br> Frontend Developer</h1>
-                    <p class="intro-text__about-text">
-                        I love programming and study at RS-School to get practical skills, as well as to improve my level in the field of programming, in addition to programming, I go in for sports, read books. Purposefulness and patience will help me achieve the desired level in the IT field and find a job.
-                    </p>
+                <div class="intro__inner">
+                    <div class="intro__text intro-text">
+                        <h1 class="intro-text__title">Dmitriy An,<br>Frontend Developer</h1>
+                        <p class="intro-text__about">
+                            I love programming and study at RS-School to get practical skills, as well as to improve my level in the field of programming, in addition to programming, I go in for sports, read books. Purposefulness and patience will help me achieve the desired level in the IT field and find a job.
+                        </p>
+                    </div>
+                    <img class="intro-text__photo" src="./assets/img/myPhoto.png" alt="photo" width="390" height="390">
                 </div>
-                <img class="intro-text__photo" src="./assets/img/myPhoto.png" alt="photo">
             </div>
         </section>
-        <section class="skills">
+        <section class="skills section-padding">
             <div class="container">
-                <h2 class="skills__title">Skills</h2>
+                <h2 class="skills__title section-title">Skills</h2>
                 <ul class="skills-list">
                     <li class="skills-list__item">
                         <span class="skills-list__subtitle">HTML5</span>
@@ -62,9 +64,9 @@
                 </ul>
             </div>
         </section>
-        <section class="code">
+        <section class="code section-padding">
             <div class="container">
-                <h2 class="code__title">Code example</h2>
+                <h2 class="code__title section-title">Code example</h2>
                 <div class="code__example">
                     <pre>
 1  const partsSums = (ls) => {
@@ -85,26 +87,30 @@
                 </div>
             </div>
         </section>
-        <section class="expirience">
+        <section class="expirience section-padding">
             <div class="container">
-                <h2 class="expirience__title">Expirience</h2>
+                <h2 class="expirience__title section-title">Expirience</h2>
                 <ul class="expirience__list">
                     <li class="expirience__item expirience-item">
-                        <img class="expirience-item__img" src="./assets/img/createx.png" alt="project photo">
-                        <span class="expirience-item__title">Createx construction</span>
+                        <a class="expirience__link" href="https://sakhalinex.github.io/createx_construction/app/index.html">
+                            <img class="expirience-item__img" src="./assets/img/createx.png" alt="project photo">
+                            <span class="expirience-item__title">Createx construction</span>
+                        </a>
                     </li>
                     <li class="expirience__item expirience-item">
-                        <img class="expirience-item__img" src="./assets/img/portfolio.png" alt="project photo">
-                        <span class="expirience-item__title">Portfolio site</span>
+                        <a class="expirience__link" href="https://sakhalinex.github.io/portfolio_site/">
+                            <img class="expirience-item__img" src="./assets/img/portfolio.png" alt="project photo">
+                            <span class="expirience-item__title">Portfolio site</span>
+                        </a>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="education">
+        <section class="education section-padding">
             <div class="container">
-                <h2 class="education__title">Education</h2>
+                <h2 class="education__title section-title">Education</h2>
                 <div class="education__content">
-                    <h3 class="education__subtitle">Courses</h3>
+                    <h3 class="education__subtitle">Courses:</h3>
                     <ul class="education__list">
                         <li class="education__item">RS School</li>
                         <li class="education__item">Courses by Vladilen Minin:</li>
@@ -115,19 +121,23 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer section-padding">
         <div class="container">
-            <div class="footer__content">
-                <ul class="footer__contacts">
-                    <li class="footer__item">Phone: +7(914)-311-6228</li>
-                    <li class="footer__item">Email: dmitrii.7774@gmail.com</li>
-                    <li class="footer__item">Github: sakhalinex</li>
-                    <li class="footer__item">Vk ID: jseer</li>
-                    <li class="footer__item">Location: Vladivostok</li>
-                </ul>
-                <img class="footer__logo" src="./assets/svg/rsschool.svg" alt="rs school">
+            <div class="footer__inner">
+                <div class="footer__content">
+                    <ul class="footer__contacts">
+                        <li class="footer__item">Phone: +7(914)-311-6228</li>
+                        <li class="footer__item">Email: dmitrii.7774@gmail.com</li>
+                        <li class="footer__item">Github: <a class="footer__link" href="https://github.com/Sakhalinex">sakhalinex</a></li>
+                        <li class="footer__item">Vk ID: <a class="footer__link" href="https://vk.com/jseer">jseer</a></li>
+                        <li class="footer__item">Location: Vladivostok</li>
+                    </ul>
+                    <a href="https://github.com/rolling-scopes-school/tasks/tree/master/stage0">
+                        <img class="footer__logo" src="./assets/svg/rsschool.svg" alt="rs school">
+                    </a>
+                </div>
+                <span class="footer__year">An Dmitriy 2022</span>
             </div>
-            <span class="footer__year">An Dmitriy 2022</span>
         </div>
     </footer>
 </body>
